@@ -14,7 +14,7 @@ services:
     build:
       context: httpd-edge-with-static
   dukecon-maven:
-    image: dukecon/dukecon-maven:latest
+    image: dukecon/dukecon-maven:3.6.3-adoptopenjdk-14
     build:
       context: maven
   dukecon-node:
