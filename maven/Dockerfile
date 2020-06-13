@@ -8,3 +8,5 @@ RUN apt-get install -qq -y iceweasel
 RUN apt-get install -qq -y xvfb
 RUN apt-get install -qq -y graphviz
 RUN apt-get autoremove -qq
+
+COPY settings.xml /usr/share/maven/conf
